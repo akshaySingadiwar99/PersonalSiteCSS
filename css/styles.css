@@ -4,22 +4,28 @@
 
 body {
   margin: 0px;
+  text-align: center;
+  font-family: Merriweather,serif;
 }
 .title {
   margin-top: 0px;
-  display: inline-block;
+  font-family: Sacramento,cursive;
+  font-size:50px;
 }
 .top-container {
     background-color: #e4f9f5;
+    padding-top: 150px;
+    position: relative;
 }
-.middle-container {
-    background-color: red;
-    height: 200px;          
-    width: 200px; 
+.top_cloud_image{
+  position: absolute;
+  right: 400px;
+  top: 60px;
+
 }
-.bottom-container {
-    background-color:blue;
-    height: 200px;
-    width: 200px;
+.bottom_cloud {
+  position: absolute;
+
 }
+
 
